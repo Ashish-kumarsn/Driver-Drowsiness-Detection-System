@@ -1,0 +1,71 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# =========================
+# Virtual Environment
+# =========================
+venv/
+.env/
+
+# =========================
+# Training / Testing Data
+# =========================
+train/
+test/
+working_images/
+playground/
+playground/**
+playground/cyber-stuff.py
+
+# =========================
+# Temporary Generated Files
+# =========================
+left-eye.jpg
+right-eye.jpg
+*.jpg
+*.png
+
+# =========================
+# Model Training Artifacts (except final model)
+# =========================
+train.py
+train_model.py
+train.pyc
+predict_test.py
+predict_test_dataset.py
+predict_visual_before.py
+predict_visual_after.py
+ear_calibration.py
+test.py
+self-notes.txt
+
+# =========================
+# VS Code / OS
+# =========================
+.vscode/
+.DS_Store
+Thumbs.db
+
+# =========================
+# Node / Frontend
+# =========================
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# =========================
+# Audio temp (keep only final alert)
+# =========================
+alert-sound.mp3
+take_a_break.mp3
+
+# =========================
+# Git
+# =========================
+.git/
