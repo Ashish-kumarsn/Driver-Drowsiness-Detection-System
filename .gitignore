@@ -26,11 +26,10 @@ playground/cyber-stuff.py
 # =========================
 # Temporary Generated Files
 # =========================
+# Ignore temporary images only
 left-eye.jpg
 right-eye.jpg
-*.jpg
-*.png
-
+working_images/
 # =========================
 # Model Training Artifacts (except final model)
 # =========================
@@ -65,7 +64,3 @@ frontend/.env
 alert-sound.mp3
 take_a_break.mp3
 
-# =========================
-# Git
-# =========================
-.git/
